@@ -2,7 +2,7 @@
 Code to simulate the spread of senescence from a lesion of primary senescent cells
 
 
-## Simulation of dleayed senescence spread 
+## Simulation of delayed senescence spread 
 
 This is a Gillespie simulation with a time delay. We have the probability that a cell at a given distance from a senescent cell which produces a SASP will beome senescent in a given amount of time. The simulation is initialised on a grid of a given size, 100X100 is commonly used as larger grids will increase the computational time. Cells are created so that they populate this plane with the specified density.
 
